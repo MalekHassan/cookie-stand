@@ -6,7 +6,7 @@ var seattle = {
     maxCustomer: 65,
     minHour: 0,
     maxHour: 20,
-    avgCookiesPerCustomer: 6.3,
+    avgCookiesPerCustomer: 1.2,
     setcustomre: function () {
         for (var i=0;i<14;i++)
         this.customer[i] = generateRandomCustomer(this.maxCustomer, this.minCustomer);
@@ -56,7 +56,7 @@ var Tokyo = {
     maxCustomer: 24,
     minHour: 0,
     maxHour: 20,
-    avgCookiesPerCustomer: 6.3,
+    avgCookiesPerCustomer: 1.2,
     setcustomre: function () {
         for (var i=0;i<14;i++)
         this.customer[i] = generateRandomCustomer(this.maxCustomer, this.minCustomer);
@@ -106,7 +106,7 @@ var Dubai = {
     maxCustomer: 38,
     minHour: 0,
     maxHour: 20,
-    avgCookiesPerCustomer: 6.3,
+    avgCookiesPerCustomer: 3.7,
     setcustomre: function () {
         for (var i=0;i<14;i++)
         this.customer[i] = generateRandomCustomer(this.maxCustomer, this.minCustomer);
@@ -156,7 +156,7 @@ var Paris = {
     maxCustomer: 38,
     minHour: 0,
     maxHour: 20,
-    avgCookiesPerCustomer: 6.3,
+    avgCookiesPerCustomer: 2.3,
     setcustomre: function () {
         for (var i=0;i<14;i++)
         this.customer[i] = generateRandomCustomer(this.maxCustomer, this.minCustomer);
@@ -207,7 +207,7 @@ var Lima = {
     maxCustomer: 16	,
     minHour: 0,
     maxHour: 20,
-    avgCookiesPerCustomer: 6.3,
+    avgCookiesPerCustomer: 4.6,
     setcustomre: function () {
         for (var i=0;i<14;i++)
         this.customer[i] = generateRandomCustomer(this.maxCustomer, this.minCustomer);
