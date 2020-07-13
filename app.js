@@ -51,7 +51,7 @@ var seattle = {
 };
 var Tokyo = {
     Name1: 'Tokyo',
-    customer: [],
+    customer: [], 
     minCustomer: 3,
     maxCustomer: 24,
     minHour: 0,
