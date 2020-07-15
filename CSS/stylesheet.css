@@ -67,3 +67,24 @@ input[type=text],[type=email], select, textarea {
   address{
       float: right;
   }
+  .center{
+    margin: auto;
+    padding: 10px;
+    }
+    .noBordar{
+    border:  none
+  }
+  #submit{
+    background-color: rgb(78, 135, 140) ;
+  }
+  #submit:hover{
+    background-color: rgb(147, 229, 171);
+ 
+    border-radius: 10px;
+  }
+  .detailsTable,td,tr{
+   color:  rgb(147, 229, 171);
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
+  }

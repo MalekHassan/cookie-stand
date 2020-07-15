@@ -4,15 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Page</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
 </head>
 <body>
     <header>
-        <h1>Cookies store</h1>
+              <div  class="Nav">
+
+                 <a><img href='#Home'  src="images/salmon.png" width="12% height:10%"></a>
+                  <a class="righttNav" href='#Locations'>Our addresses</a>
+                  <a class="righttNav" href='sales.html'>Our sales</a>
+                  <a class="righttNav" href='#openingHours'>Opening hours</a>
+                  <a class="righttNav"href="#Contant us">Contant us</a>
+                  <a class="righttNav" href='index.html'>Home</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Cookies store</h2>
       </header>
       <main>
+        <br>
+        <form class="NewCity" id="NewCity1">
+          <fieldset >
+            <legend class="center">
+              <h3>
+              Add your City name and other fileds to check it
+            </h3>
+          </legend>
+            <table class="center">
+              <tr>
+                <td class="noBordar">
+                  <label for="cityName">CityName </label><br>
+                  <input required type="text" id="cityName">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="MinCustomer">Min. Customer </label><br>
+                  <input required type="number" id="Min">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="MaxCustomer">Max. Customer </label><br>
+                  <input required type="number" id="Max">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="AverageCookiesPerCustomer">Average</label><br>
+                  <input required type="number" step="any" id="Average">
+                </td>
+              </tr>
+              <tr>
+                <td  class="noBordar">
+                  <input id="submit" required type="submit" value="Submit">
+                </td>
+                </tr>
+               </table>
+          </fieldset>
+        </form>
+     
         <h2>Cities and Timing:</h2>
         <pre>
-        <section id="details">
+        <section id="details"></section>
         </section>
       </pre>
       </main>
