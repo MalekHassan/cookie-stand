@@ -98,25 +98,6 @@ function footerRow() {
     tableFooter.appendChild(x4);
     x4.textContent = totalCookies;
 }
-
-headerRow();
-var seattle = new City('Seattle', 23, 65,6.3);
-seattle.setcustomer();
-seattle.render();
-var Tokyo = new City('Tokyo', 3, 24,1.2);
-Tokyo.setcustomer();
-Tokyo.render();
-var Dubai = new City('Dubai', 11, 38,3.7);
-Dubai.setcustomer();
-Dubai.render();
-var Paris = new City('Paris', 20, 38,2.3);
-Paris.setcustomer();
-Paris.render();
-var Lima = new City('Lima', 2, 16,4.6);
-Lima.setcustomer();
-Lima.render();
-footerRow();
-
 var NewCity=document.getElementById("NewCity1")
 NewCity.addEventListener('submit',function(){
     event.preventDefault();
