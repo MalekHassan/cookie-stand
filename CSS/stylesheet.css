@@ -11,6 +11,7 @@ html{
   text-decoration: none;
 }
 .Nav{
+  font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     top: 0;
     width: 95%;
@@ -29,7 +30,8 @@ html{
 h2,h3{
     text-align: center;
     color: rgb(181, 255, 225);
-}
+  font-family: 'Times New Roman', Times, serif;
+  }
 td{
     border: solid  rgb(181, 255, 225);;
     text-align: center;
