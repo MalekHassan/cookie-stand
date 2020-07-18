@@ -1,69 +1,92 @@
 html{
-    background-color:rgb(0, 36, 27);
+  background-color:rgb(0, 36, 27);
 }
 .righttNav {
-    
-  float: right;
-  display: block;
-  color: rgb(78, 135, 140);
-  text-align: center;
-  padding: 9px 9px;
-  text-decoration: none;
+  
+float: right;
+display: block;
+color: rgb(78, 135, 140);
+text-align: center;
+padding: 9px 9px;
+text-decoration: none;
 }
 .Nav{
-    position: fixed;
-    top: 0;
-    width: 95%;
-    background-color:rgb(181, 255, 225);
-    border-radius: 10px;
-    margin: 10px;
-    border: solid wheat;
-    padding: 13px 13px;
+font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  background-color:rgb(181, 255, 225);
+  border-radius: 10px;
+  margin: 10px;
+  border: solid wheat;
+  padding: 13px 13px;
 
 }
 .Nav :hover{
-  background-color: rgb(147, 229, 171);
-  padding-top: 0%;
-  border-radius: 10px;
+background-color: rgb(147, 229, 171);
+padding-top: 0%;
+border-radius: 10px;
 }
 h2,h3{
-    text-align: center;
-    color: rgb(181, 255, 225);
+  text-align: center;
+  color: rgb(181, 255, 225);
+font-family: 'Times New Roman', Times, serif;
 }
 td{
-    border: solid  rgb(181, 255, 225);;
-    text-align: center;
-    color: rgb(171, 216, 195);
+  border: solid  rgb(181, 255, 225);;
+  text-align: center;
+  color: rgb(171, 216, 195);
 }
 input[type=text],[type=email], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:rgb(0, 36, 27);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(78, 135, 140)
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(147, 229, 171);
+  padding: 20px;
+}
+address{
+    float: right;
+}
+.center{
+  margin: auto;
+  padding: 10px;
   }
-  
-  input[type=submit] {
-    background-color:rgb(0, 36, 27);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color:rgb(78, 135, 140)
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: rgb(147, 229, 171);
-    padding: 20px;
-  }
-  address{
-      float: right;
-  }
+  .noBordar{
+  border:  none
+}
+#submit{
+  background-color: rgb(78, 135, 140) ;
+}
+#submit:hover{
+  background-color: rgb(147, 229, 171);
+
+  border-radius: 10px;
+}
+.detailsTable,td,tr{
+ color:  rgb(147, 229, 171);
+  font-family: sans-serif;
+  margin: auto;
+  padding: 10px;
+}
