@@ -89,7 +89,7 @@ function footerRow() {
         }
         
         totalCookies = totalCookies + sumHour ;
-        td.textContent = sumHour  ;
+        td.textContent = sumHour ;
         tableFooter.appendChild(td); 
 
     }
