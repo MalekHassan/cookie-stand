@@ -1,8 +1,9 @@
 html{
-    background-color:rgb(0, 36, 27);
+   background-color:rgb(0, 36, 27);
 }
 .righttNav {
-    
+  margin: 0px 0px 0px;
+  text-align: center;
   float: right;
   display: block;
   color: rgb(78, 135, 140);
@@ -11,8 +12,10 @@ html{
   text-decoration: none;
 }
 .Nav{
+  font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     top: 0;
+    height: 10%;
     width: 95%;
     background-color:rgb(181, 255, 225);
     border-radius: 10px;
@@ -26,10 +29,14 @@ html{
   padding-top: 0%;
   border-radius: 10px;
 }
-h2,h3{
+h1,h2,h3{
     text-align: center;
     color: rgb(181, 255, 225);
 }
+td,th{
+=======
+  font-family: 'Times New Roman', Times, serif;
+  }
 td{
     border: solid  rgb(181, 255, 225);;
     text-align: center;
@@ -66,4 +73,25 @@ input[type=text],[type=email], select, textarea {
   }
   address{
       float: right;
+  }
+  .center{
+    margin: auto;
+    padding: 10px;
+    }
+    .noBordar{
+    border:  none
+  }
+  #submit{
+    background-color: rgb(78, 135, 140) ;
+  }
+  #submit:hover{
+    background-color: rgb(147, 229, 171);
+ 
+    border-radius: 10px;
+  }
+  .detailsTable,td,tr{
+   color:  rgb(147, 229, 171);
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
   }
