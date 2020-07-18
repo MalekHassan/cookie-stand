@@ -23,13 +23,56 @@
                 <br>
                 <br>
                 <br>
-                <br>
                 <h1>Cookies store</h1>
       </header>
       <main>
         <br>
         <br>
         <br>
+                <h2>Cookies store</h2>
+      </header>
+      <main>
+        <br>
+        <form class="NewCity" id="NewCity1">
+          <fieldset >
+            <legend class="center">
+              <h3>
+              Add your City name and other fileds to check it
+            </h3>
+          </legend>
+            <table class="center">
+              <tr>
+                <td class="noBordar">
+                  <label for="cityName">CityName </label><br>
+                  <input required type="text" placeholder="Enter City Name" id="cityName">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="MinCustomer">Min. Customer </label><br>
+                  <input required type="number" placeholder="Enter a number" id="Min">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="MaxCustomer">Max. Customer </label><br>
+                  <input required type="number" placeholder="Enter a number" id="Max">
+                </td>
+              </tr>
+              <tr >
+                <td class="noBordar">
+                  <label for="AverageCookiesPerCustomer">Average</label><br>
+                  <input required type="number" placeholder="Enter a number" step="any" id="Average">
+                </td>
+              </tr>
+              <tr>
+                <td  class="noBordar">
+                  <input id="submit" type="submit" value="Submit">
+                </td>
+                </tr>
+               </table>
+          </fieldset>
+        </form>
         <h2>Cities and Timing:</h2>
         <pre>
         <section id="details"></section>
